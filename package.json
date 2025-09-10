@@ -38,6 +38,10 @@
     "react-dom": "18.3.0",
     "vite": "^6.2.0"
   },
+  "scripts": {
+  "format": "prettier --write .",
+  "check": "prettier --check . && npm run lint"
+}
   "devDependencies": {
     "@eslint/js": "9.34.0",
     "@vitejs/plugin-react": "4.3.4",
